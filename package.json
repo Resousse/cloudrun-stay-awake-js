@@ -1,7 +1,7 @@
 {
     "name": "cloudrun-stay-awake",
-    "description": "Minimising Cloud Run cold start with targetted self call",
-    "version": "1.0.2",
+    "description": "Reduce Cloud Run cold start with targetted self call",
+    "version": "1.0.3",
     "main": "cloudrun-stay-awake.js",
     "scripts": {
       "test": "node test.js"
