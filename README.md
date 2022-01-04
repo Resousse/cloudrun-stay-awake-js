@@ -8,7 +8,7 @@ One of the cheap solutions proposed by Guillaume (https://medium.com/google-clou
 
 Another solutions is presented to trigger the stop signal (a SIGTERM signal) to self call the service to try to keep it alive. This is what this code is about.
 
-## Implementation
+## How to Use
 Easy steps:
 - `npm install cloudrun-stay-awake`
 - In the main file of your code, that will run a server (such as `app.js`), just put this include directive somewhere in your code : `require('cloudrun-stay-awake')`
